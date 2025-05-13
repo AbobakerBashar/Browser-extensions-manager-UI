@@ -23,10 +23,10 @@ body {
 .container {
   min-height: 100vh;
   background: linear-gradient(180deg, #040918 0%, #091540 100%);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   transition: all var(--main-transition);
 }
 .container.light {
@@ -125,8 +125,6 @@ body {
 .container .header.light .right .options button:hover {
   background-color: var(--white-color);
 }
-.container .header.ligjt .right .options span {
-}
 /* End Header */
 /* Start Extentsions */
 .extensions {
@@ -141,13 +139,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-bottom: 15px;
 }
 @media(max-width:675px){
 .extensions .filter-extensions {
     flex-direction: column;
     margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 .extensions .filter-extensions .buttons {
