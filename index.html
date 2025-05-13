@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Start Header -->
+    <div class="header">
+      <div class="left">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="right">
+        <button><img src="images/icon-sun.svg" alt=""></button>
+      </div>
+    </div>
+    <!-- End Header -->
+     <!-- Staet Extensions List  -->
+      <div class="extensions">
+        <div class="filter-extensions">
+          <h2>Extensions List</h2>
+          <div class="buttons">
+            <button class="show-all active">All</button>
+            <button class="show-active">Active</button>
+            <button class="show-inactive">Inactive</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-devlens.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>DevLens</h4>
+                  <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-style-spy.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>StyleSpy</h4>
+                  <p>Instantly analyze and copy CSS from any webpage element.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-speed-boost.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>SpeedBoost</h4>
+                  <p>Optimizes browser resource usage to accelerate page loading.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-json-wizard.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>JSONWizard</h4>
+                  <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-tab-master-pro.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>TabMaster</h4>
+                  <p>Organizes browser tabs into groups and sessions.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-viewport-buddy.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>ViewportBuddy</h4>
+                  <p>Simulates various screen resolutions directly within the browser.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-markup-notes.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>Markup Notos</h4>
+                  <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-grid-guides.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>GridGuides</h4>
+                  <p>Overlay customizable grids and alignment guides on any webpage.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-palette-picker.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>Palette Picker</h4>
+                  <p>Instantly extracts color palettes from any webpage.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-link-checker.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>LinkChecker</h4>
+                  <p>Scans and highlights broken links on any page.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-dom-snapshot.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>DOM Snapshot</h4>
+                  <p>Capture and export DOM structures quickly.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+          <div class="extension-box">
+            <div class="top">
+                <div class="image">
+                  <img src="images/logo-console-plus.svg" alt="">
+                </div>
+                <div class="description">
+                  <h4>ConsolePlus</h4>
+                  <p>Enhanced developer console with advanced filtering and logging.</p>
+                </div>
+            </div>
+            <div class="bottom buttons">
+              <button>Remove</button>
+              <button></button>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- End Extensions List  -->
+  </div>
+  <!-- Extensions List -->
+  <script src="JavaScript/main.js"></script>
+</body>
+</html>
